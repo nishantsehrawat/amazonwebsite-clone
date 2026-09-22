@@ -16,53 +16,97 @@
 
             <!-- TOP NAV     -->
             <div class="nav-top">
-                <div class="nav-logo nav-border">
-                    <!-- <div class="amazonlogo"></div> -->
-                </div>
+                <span class="nav-logo" nav-border>
+                    <div class="amazonlogo nav-border"></div>
+                </span>
                 <div class="nav-address nav-border">
-                    <svg class="pinpoint" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="lucide lucide-map-pin preview-icon">
-                        <path
-                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
-                        <circle cx="12" cy="10" r="3" />
-                    </svg>
+                    <div nav-icon>
+                        <svg class="pinpoint" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin preview-icon">
+                            <path
+                                d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+
+                    </div>
 
                     <div class="nav-address-location">
-                        <span class="deliver-to">Deliver to</span>
-                        <span class="india">India </span>
+                        <p class="deliver-to">Deliver to</p>
+                        <p class="nav-icon">India</p>
+
                     </div>
                 </div>
-                <div class="navsearchbox">
-                    <div class="all-box"></div>
-                    <div class="search-bar"></div>
-                    <div class="search-button"></div>
+                <div class="nav-search-box">
+                    <select class="all-box">
+                        <option class="all-options"> All</option>
+                        <option>text2</option>
+
+                    </select>
+                    <input class="search-bar" input type="search" id="site-search" placeholder=" Search Amazon">
+
+                    <button class="search-button"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search preview-icon">
+                            <path d="m21 21-4.34-4.34" />
+                            <circle cx="11" cy="11" r="8" />
+                        </svg></button>
                 </div>
-                <div class="nav-lang">
+                <div class="nav-lang nav-border">
                     <div class="flag"></div>
-                    <div class="lang"></div>
+                    <select class="lang">
+                        <option class="lang">EN</option>
+                    </select>
                     <div class="dropdown-icon"></div>
                 </div>
-                <div class="navsign-in">
-                    <div class="sign-in"></div>
-                    <div class="dropdown-icon"></div>
+                <div class="nav-signin nav-border">
+                    <p class="sign-in"><span>Hello,Sign in</span></p>
+                    <p class="accounts-list">Accounts & list</p>
 
                 </div>
-                <div class="navreturn-orders">
-                    <div class="retun-order"></div>
+                <div class="nav-return-orders nav-border">
+                    <p class="sign-in"><span>Return</span></p>
+                    <p class="accounts-list">& Orders</p>
                 </div>
-                <div class="nav-cart">
-                    <div class="cart-icon"></div>
-                    <div class="cart"></div>
+                <div class="nav-cart nav-border">
+                    <div class="cart-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-shopping-cart preview-icon">
+                            <path d="m2.05 2.05 1.099-.028a1 1 0 0 1 1.008.815l2.69 14.347A1 1 0 0 0 7.83 18H18" />
+                            <path d="M4.563 5h16.435a1 1 0 0 1 .981 1.204l-1.026 6.226A2 2 0 0 1 18.962 14H6.25" />
+                            <circle cx="18" cy="20" r="2" />
+                            <circle cx="8" cy="20" r="2" />
+                        </svg></div>
+                    <p class="accounts-list">Cart</p>
                 </div>
             </div>
 
             <!-- BOTTOM NAV -->
             <div class="nav-bottom">
-                <div class="nav-bottom_allbox"></div>
-                <div class="nav-bottom_primevideo"></div>
-                <div class="nav-bottom_coupons"></div>
-                <div class="nav-bottom_sell"></div>
+
+                <div class="nav-bottom-items">
+                    <div class="all-hamburger"><svg class="hamburger" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu preview-icon">
+                            <path d="M4 5h16" />
+                            <path d="M4 12h16" />
+                            <path d="M4 19h16" />
+                        </svg>
+                        <p>All</p>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a class="nav-border" href="https://www.google.com>">Prime Video</a></li>
+                        <li><a class="nav-border" href="https://www.google.com>">Coupons</a></li>
+                        <li><a class="nav-border" href="https://www.google.com>">Customer Service</a></li>
+                        <li><a class="nav-border" href="https://www.google.com>">Today's deal</a></li>
+                        <li><a class="nav-border" href="https://www.google.com>">Registry</a></li>
+                        <li><a class="nav-border" href="https://www.google.com>">Gift Cards</a></li>
+                        <li><a class="nav-border" href="https://www.google.com>">Sell</a></li>
+
+                    </ul>
+                </div>
+
             </div>
         </nav>
 
