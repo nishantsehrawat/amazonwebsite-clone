@@ -5,16 +5,15 @@
     box-sizing: border-box;
 
 }
+
+/*NAV-TOP */
 .nav-border{
     border: 1.5px solid transparent ;
 }
 .nav-border:hover{
   border: 1.5px solid white;
   height: 44px;
- 
-
   
-
 }
 .nav-top {
     height: 60px;
@@ -30,16 +29,13 @@ align-items: center;
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
-    align-items: center;
-    
+    align-items: center;  
    
-
 }
 .amazonlogo{
     height: 58px;
     width: 100%;
    
-
 }
 
 .nav-address-location {
@@ -94,17 +90,12 @@ display: flex;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-color: transparent;
-
-    
-    
+ 
 }
-
-
 .all-options
 {
     font-size: 14px;
     color: #666666;
-    
     
 }
 .search-bar {
@@ -197,7 +188,7 @@ display: flex;
     color: white;
     
 }
-
+/* NAV-BOTTOM */
 .nav-bottom {
     height: 39px;
     background-color: #232f3e;
@@ -263,7 +254,7 @@ height: 39px;
     align-items: center;
     
 }
-    .hero-image{
+.hero-image{
     background-image: url(../images/hero_image.jpg);
     background-size: cover;
     height: 400px;
@@ -288,8 +279,6 @@ height: 39px;
     color: rgb(32, 134, 160);
     font-size: .85rem;
    
-  
-    
 }
 .buy-panel-main{
     width: 100%;
@@ -362,6 +351,10 @@ height: 39px;
     align-items: center;
 }
 
+/* <!-- ===============================
+FOOTER
+=============================== --> */
+
 .footer-top{
     display: flex;
     flex-direction: row;
@@ -374,12 +367,14 @@ height: 39px;
 .footertop1{
     display: flex;
     flex-direction: column;
-
+    gap: 15px;
+    
+    
 
 }
 .footer-top a{
     text-decoration: none;
-    color: white;
+    color: rgb(218, 218, 218);
     font-size: .85rem;
 
 }
@@ -388,7 +383,6 @@ height: 39px;
     font-weight: 550;
     font-size: .85rem;
     margin-top: 10px;
-
 
 }
 .footer-bottom{
@@ -399,13 +393,11 @@ height: 39px;
     align-items: center;
     justify-content: center;
 
-
-
 }
 .footer-logo {
     height: 60px;
     width: 114px;
-   background-image: url(../images/amazon_logo.png);
+    background-image: url(../images/amazon_logo.png);
     background-repeat: no-repeat;
     background-size: contain;
     
